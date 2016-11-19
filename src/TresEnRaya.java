@@ -1,5 +1,9 @@
 import java.util.Scanner;
 
+/* añado un comentario para 
+ * hacer un segundo commit
+ */
+
 public class TresEnRaya {
 
 	private int contador;
@@ -16,9 +20,9 @@ public class TresEnRaya {
             System.out.println ("Volver a jugar ('si'/'no')? ");
             Scanner in =new Scanner(System.in);
             ch=in.nextLine();
-            ch=ch.toUpperCase(); // que me devuelva siempre SI 
-         //   System.out.println("ch valor es  "+ch); ERROR no quiero que me imprimas nada 
-        }while (ch.equals("SI")); //ERROR se repite si el usuario me dice que si
+            ch=ch.toUpperCase(); // que me devuelva siempre SI en mayusculas
+            // System.out.println("ch valor es  "+ch); ERROR no quiero que me imprimas nada 
+        }while (ch.equals("SI")); // ERROR se repite si el usuario me dice que si
         
         
     }
